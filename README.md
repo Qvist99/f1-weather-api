@@ -17,7 +17,6 @@ weather information obtained from Formula 1's live timing feeds.
 Create a `.env` file in the project root:
 
 ```env
-ALLOWED_ORIGIN=
 API_SECRET=
 PORT=
 
