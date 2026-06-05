@@ -1,0 +1,27 @@
+{
+  "name": "f1-weather-api",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.14",
+    "@supabase/supabase-js": "^2.107.0",
+    "@types/ws": "^8.18.1",
+    "dotenv": "^17.4.2",
+    "hono": "^4.12.23",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@vitest/coverage-v8": "^4.1.8",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.8"
+  }
+}
